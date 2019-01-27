@@ -1,0 +1,328 @@
+header{
+    background-color: #dd2211bb;
+    width: 100%;
+    height: 900px;
+}
+.header_menu{
+    display: flex;
+}
+.header_right{
+    width: 40%;
+}
+.header_left{
+    width: 60%;
+}
+.header_right img{
+    padding: 20px;
+}
+.header_left ul{
+    display: flex;
+    padding: 50px;
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    font-family: 'Open Sans', sans-serif;
+    overflow: hidden;
+    cursor: pointer;
+}
+.header_left ul li{
+    margin-left: 30px;
+}
+.header_left ul li:hover{
+    color: #130e27;
+}
+.header_next{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.header_block{
+    width: 500px;
+    padding: 50px;
+}
+.header_block h1{
+    font-size: 7vw;
+    color: #130e27;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+}
+.header_block h2{
+    font-size: 7vw;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+}
+.header_block p{
+    font-size: 20px;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+}
+.header_request h1{
+    font-size: 22px;
+    color: rgb(19, 14, 39);
+    text-align: center;
+    margin-top: 15px;
+    font-family: 'Open Sans', sans-serif;
+}
+.header_request{
+    margin-right: 100px;
+    width: 250px;
+    background-color: #ffffff;
+}
+.header_regis1, .header_regis2, .header_regis3, .header_regis4{
+    padding: 15px 50px 0px 10px;
+}
+.header_regis1 input, .header_regis2 input, .header_regis3 input, .header_regis4 input{
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #eeeeee;
+    font-family: 'Open Sans', sans-serif;
+}
+label input{
+    text-align: center;
+}
+.check{
+    margin: 15px;
+    text-align: center;
+}
+.signupbtn{
+    width: 100%;
+    color: white;
+    background-color: red;
+    padding: 15px;
+    border-radius: 15px;
+}
+.services{
+
+    background-color: white;
+}
+.services_text{
+    display: flex;
+    padding: 40px;
+}
+.services_text h1{
+    font-size: 50px;
+    color: #c62314;
+}
+.services_text h2{
+    font-size: 50px;
+    color: #130e27;
+    margin-left: 20px;
+}
+.services_info{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    overflow: hidden;
+}
+.services_photo1 p, .services_photo2 p, .services_photo3 p, .services_photo4 p{
+    font-size: 20px;
+    color: rgb(22, 22, 22);
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 40px;
+}
+.services_photo1, .services_photo2, .services_photo3, .services_photo4{
+    width: 220px;
+    padding: 40px;
+}
+.services_footer{
+    display: flex;
+    background-color: #130e27;
+}
+.serv_tex{
+    width: 60%;
+    font-size: 20px;
+    color: white;
+    padding: 20px;
+}
+.serv_btn{
+    padding: 20px;
+}
+
+.serv_btn button{
+    background-color: #c62314;
+    color: #130e27;
+    border-radius: 10px;
+    padding: 10px;
+}
+.container h2{
+    font-size: 50px;
+    color: #130e27;
+    text-align: center;
+    padding: 20px;
+}
+.container{
+    background-color: #efefef;
+}
+.paragraph{
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px 50px 0px 50px;
+}
+.block1{
+    width: 300px;
+    background-color: white;
+}
+.block2{
+    width: 300px;
+    background-color: white;
+}
+.block3{
+    width: 300px;
+    background-color: white;
+}
+.block_tex{
+    padding: 60px;
+    text-align: center;
+}
+.block1 h1, .block2 h1, .block3 h1{
+    font-size: 60px;
+    color: rgb(198, 35, 20);
+    margin-top: 10px;
+}
+.block1 p, .block2 p, .block3 p{
+    font-size: 22px;
+    color: rgb(22, 22, 22);
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 10px;
+}
+.block1 button, .block2 button, .block3 button{
+    width: 100%;
+    background-color: #130e27;
+    padding: 10px;
+    color: white;
+    margin-top: 10px;
+}
+.person{
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.guy{
+    padding: 40px;
+}
+.guy_block1{
+    width: 350px;
+    padding: 50px;
+}
+.guy_line{
+    display: flex;
+}
+.guy_line img{
+    border-radius: 100%;
+    width: 110px;
+    height: 100px;
+    padding-left: 50px;
+}
+.guy h1{
+    font-size: 7vh;
+    color: rgb(19, 14, 39);
+    padding: 20px 0px 0px 100px;
+}
+.guy_line p{
+    font-size: 20px;
+    color: rgb(19, 14, 39);
+}
+.guy_block1 h1, .guy_block1 h2{
+    font-size: 20px;
+    color: rgb(19, 14, 39);
+}
+
+
+.guy_block2{
+    width: 50%;
+    padding: 50px;
+    background-color: #efefef;
+}
+.guy_line1{
+    display: flex;
+}
+.guy_line1 img{
+    border-radius: 100%;
+    width: 90px;
+    height: 100px;
+    padding-left: 50px;
+    z-index: 1;
+}
+.guy_block2 h1{
+    font-size: 20px;
+    color: rgb(19, 14, 39);
+}
+.guy_line1 p{
+    font-size: 20px;
+    color: rgb(198, 35, 20);
+}
+.ledy{
+    width: 250xp;
+    padding: 40px;
+}
+.ledy_img, .ledy_img1{
+    display: flex;
+}
+.ledy_img img, .ledy_img1 img{
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+.ledy h1{
+    font-size: 7vh;
+    color: rgb(198, 35, 20);
+    padding: 20px 0px 50px 0px;
+    text-align: center;
+}
+.ledy p{
+    font-size: 20px;
+    color: rgb(19, 14, 39);
+    text-align: center;
+    margin-top: 40px;
+}
+footer{
+    background-color: #130e27;
+}
+.footer_container{
+    display: flex;
+    padding: 50px 0px 0px 50px;
+}
+.footer_text{
+    width: 70%;
+    display: flex;
+}
+.footer_container h1{
+    font-size: 20px;
+    color: white;
+}
+.footer_container h2{
+    font-size: 20px;
+    color: #c62314;
+}
+
+@media all and (max-width: 830px){
+    .header_right img{
+        display: none;
+    }
+    .header_left{
+        width: 100%;
+    }
+}
+@media all and (max-width: 570px){
+    .header_left ul li{
+        margin-left: 20px;
+    }
+}
+@media all and (max-width: 518px){
+    .header_left ul li{
+        margin-left: 6px;
+    }
+}
+@media all and (max-width: 968px){
+    .header_next{
+        justify-content: center;
+    } 
+}
+
